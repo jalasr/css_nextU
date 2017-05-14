@@ -1,0 +1,75 @@
+body{
+  background-color: gray;
+}
+
+footer{
+  margin-top: 20px;
+}
+
+img{
+  border-radius: 10px;
+}
+
+#estudios{
+
+}
+
+#contenedor{
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+#encabezado{
+  display: block;
+  margin: 0 auto;
+}
+
+.item-indice{
+  list-style: upper-roman;
+}
+
+.enlace{
+  color: red;
+}
+
+/*a[href],  - Todas las a con atributo 'href'.
+a[href="https://www.google.com.sv"], - Todas las a con el atributo 'href', pero que contengan la dirección web expuesta.
+img[src$=svg], - Todas las imágenes cuyo atributo href termina con las letras 'svg'.
+img[src|='icono'], - Todas las imágenes cuyo atributo src contenga la palabra 'iconos'.
+img[src^='iconos'], - Todas las imágenes cuyo atributo src comience con la palabra 'iconos'
+img[src~='svg'], - Se usa cuando el atributo tiene múltiples valores separados por espacio.
+[title*='description'] - Todas la etiquetas 'title' con el valor description*/
+
+a[href^='#']{
+  color: red;
+}
+
+img[src$='.svg']{
+  border-radius: 50px;
+}
+
+img[src$='.jpg'], img[src$='png']{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/*Selectores avanzados*/
+*{
+  margin: 1vh 1vw;
+}
+
+h1 + h2{
+  text-decoration: underline;
+}
+
+h2 ~ p{
+  text-align: justify;
+}
+
+article > h2{
+  text-decoration: underline;
+}
+
+ul li{
+  list-style-type: circle;
+}

@@ -1,0 +1,19 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: Verdana;
+}
+
+h1{
+	font-family: Arial;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.contenedor{
+	margin-top: 10px;
+	margin-left: 20px;
+}
