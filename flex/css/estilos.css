@@ -11,35 +11,26 @@ div [class*="bloque"]{
   color: #ddd;
   background-color: #FF0000;
   order: 2;
-
-
 }
 .bloque2 {
   color: #333;
   background-color: #00FF99;
   order: 3;
-
-
 }
 .bloque3 {
   color: #333;
   background-color: #00FFFF;
   order: 4;
-
-
 }
 .bloque4 {
   color: #333;
   background-color: #FFFF00;
   order: 5;
-
-
 }
 .bloque5 {
   color: #ddd;
   background-color: #000000;
   order: 1;
-
 }
 .bloque6 {
   color: #333;
@@ -51,7 +42,6 @@ div [class*="bloque"]{
   color: #ddd;
   background-color: #0000F0;
   order: 7;
-
 }
 
 .contenedor{
