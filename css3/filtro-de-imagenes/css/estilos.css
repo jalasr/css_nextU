@@ -1,0 +1,19 @@
+/*
+Filtros disponibles:
+1. blur(): Efecto de desenfoque.
+2. grayscale(): Efecto de escala de grises.
+3. drop-shadow(): Efecto de sombra.
+4. sepia(): Efecto sepia.
+5. brightness(): Efecto de brillo.
+6. contrast(): Efecto de contraste.
+7. hue-rotate(): Este efecto incrementa el valor de los colores cambiándolos totalmente.
+8. invert(): Efecto de invertir imagen.
+9. saturate(): Efecto de saturación.
+10. opacity(): Efecto de opacidad.
+*/
+
+
+.image{
+    -webkit-filter: drop-shadow(15px 20px 25px blue);
+    filter: drop-shadow(15px 20px 25px blue);
+}
